@@ -43,4 +43,5 @@ printf("%d ",a[i]);
 }
 
 printf("%d",a[n-1]);
+
 }
