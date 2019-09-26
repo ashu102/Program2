@@ -11,6 +11,7 @@ on its right side in the array.
 void main()
 
 {
+
 int n;
 
 scanf("%d",&n);
@@ -24,6 +25,7 @@ scanf("%d",&a[i]);
 for(int i=0;i<n-1;i++)
 
 {
+
 count = n-1-i;
 
 for(int j=i+1;j<n;j++)
@@ -36,6 +38,7 @@ else break;
 
 
 }
+
 if(count == 0)
 
 printf("%d ",a[i]);
